@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Building...'
                 // Add your build steps here
-                sh 'mkdir ~/webhook' // Example for a makefile project
+                sh 'mkdir /home/ec2-user/webhook' // Example for a makefile project
             }
         }
     }
